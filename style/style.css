@@ -1,0 +1,42 @@
+
+body{
+	background: gray
+}
+.name{
+  font-size: 40px;
+  color: #f5a623;
+  line-height: 48px;
+  display: inline;
+}
+.summery{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.education{
+    background: red
+}
+.experience{
+    background: brown
+}
+.skills{
+    background: yellow
+}
+.project{
+    background: white
+}
+.summery_content{
+    background: gray
+}
+.education_content{
+    background: white
+}
+.experience_content{
+    background: gray
+}
+.skills_content{
+    background: gray
+}
+.project_content{
+    background: gray
+}
