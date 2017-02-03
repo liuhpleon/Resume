@@ -62,16 +62,10 @@ var skills = {
 
 $('#summery_content').append("<p>"+summery+"</p>");
 
-for(var i=0;i<contacts.length;i++){
-	$("#contact_content").append("<p>"+contacts[i]+"</p>")
-}
-
-$("#contact_content").append("<p>"+contacts["cellphone"][0]+"</p>");
-$("#contact_content").append("<p>"+contacts["email"][0]+"</p>");
+$("#contact_content").append("<p>"+contacts["cellphone"]+"</p>");
+$("#contact_content").append("<p>"+contacts["email"]+"</p>");
 $("#contact_content").append("<p>"+contacts["linkedin"][0]);
 $("#contact_content").append("<p>"+contacts["github"][0]+"</p>");
-
-
 
 for(var i=0;i<experiences.length;i++){
 	$("#experience_content").append("<p>"+experiences[i].title+"</p>");
