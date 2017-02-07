@@ -1,0 +1,54 @@
+
+.name{
+  font-size: 40px;
+  color: maroon;
+  line-height: 48px;
+}
+.summery{
+  padding: 0;
+  margin: 0;
+  width:100%;
+  font-family: "Roboto", sans-serif;
+}
+.sc{
+  left:15%;
+  width:70%;
+}
+
+.all_content{
+    line-height:30px;
+    background-color:#eeeeee;
+    height:160px;
+    left: 15%;
+    width:70%;
+    padding:3px; 
+    margin: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    display: inline-block;
+
+}
+
+.ac_1{
+    width:18.5%;
+    height:300px;
+}
+
+.ac_2{
+  width:32.3%;
+  height:300px;
+}
+.ac_3{
+  width:20%;
+  height:300px;
+}
+.ac_4{
+  width:20%;
+  height:40px;
+}
+.b1{
+    background: maroon;
+    color:white;
+    padding: 3px;
+}
